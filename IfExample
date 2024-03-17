@@ -1,3 +1,6 @@
 
 #if new_folder exists then we create if_folder
 If exist new_folder mkdir if_folder
+
+#if if_folder exists create hyperionDev else create new folder new-projects
+If exist if_folder mkdir hyperionDev else mkdir new-projects
